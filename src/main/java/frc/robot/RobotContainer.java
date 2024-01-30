@@ -102,7 +102,7 @@ public class RobotContainer {
     //OI.button10Aux.onTrue(turnLimeLiteOn);
     //OI.button11Aux.onTrue(turnLimeLiteOff);
     //commands that are mapped to buttons, to run when button is pressed/held/etc.
-    // OI.triggerAux.onTrue(shoot2Comm);
+    OI.triggerAux.onTrue(new Shoot2Balls(-0.3));
     // OI.triggerAux.onTrue(new InstantCommand(ledSub::purple, ledSub));
     
     

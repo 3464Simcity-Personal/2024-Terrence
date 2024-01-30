@@ -23,8 +23,8 @@ public class Shoot2Balls extends Command {
   boolean isFin;
   
   public Shoot2Balls(double speed){
-    ShooterSubsystem shootSub = ShooterSubsystem.getInstance();
-    IntakeSubsystem intakeSub = IntakeSubsystem.getInstance();
+    shootSub = ShooterSubsystem.getInstance();
+    intakeSub = IntakeSubsystem.getInstance();
     // Use addRequirements() here to declare subsystem dependencies.
     addRequirements(shootSub);
     addRequirements(intakeSub);

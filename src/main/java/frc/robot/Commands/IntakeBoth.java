@@ -16,7 +16,7 @@ public class IntakeBoth extends Command {
   private IntakeSubsystem intakeSub;
 
   public IntakeBoth() {
-    IntakeSubsystem intakeSub = IntakeSubsystem.getInstance();
+    intakeSub = IntakeSubsystem.getInstance();
     // Use addRequirements() here to declare subsystem dependencies.
     addRequirements(intakeSub);
   }
